@@ -59,14 +59,17 @@ DB_PORT = 3306
 
 ---
 ### ✅ main install
-pip 설치 버전
+#### pip 설치 버전
 >mysql-connector-python==9.3.0   
 >python-dotenv==1.1.0  
 
-설치하기(최신버전)
+#### 설치하기(최신버전)
 >pip install mysql-connector-python python-dotenv
 
 mysql 연결, .env파일 사용
+
+#### 실행하기
+>python -m src.main 
 
 # 🔍 모듈평가
 ### ✅ 응집도
