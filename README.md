@@ -58,14 +58,17 @@ DB_PORT = 3306
 
 ---
 ### ✅ main install
-pip 설치 버전
+#### pip 설치 버전
 >mysql-connector-python==9.3.0   
 >python-dotenv==1.1.0  
 
-설치하기(최신버전)
+#### 설치하기(최신버전)
 >pip install mysql-connector-python python-dotenv
 
 mysql 연결, .env파일 사용
+
+#### 실행하기
+>python -m src.main 
 
 # 🔍 모듈평가
 ### ✅ 응집도
@@ -74,7 +77,7 @@ mysql 연결, .env파일 사용
 
 ### ✅ 결합도
 결합도란?  
-각 모듈간의 관련이 적고 상호 의존성이 줄어 모듈이 독립적인 상태입니다. 결합도는 납을 수록 좋습니다.  
+각 모듈간의 관련이 적고 상호 의존성이 줄어 모듈이 독립적인 상태입니다. 결합도는 낮을 수록 좋습니다.  
 
 ## 🔍 평가
 ### init.sql 파일
