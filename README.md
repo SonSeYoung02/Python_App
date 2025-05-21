@@ -18,7 +18,9 @@ Google Keep을 선정하게된 이유는 Google Keep의 기능들이 직관적�
 # 📊 시퀀스 다이어그램
 ### Google Keep 의 시퀀스 다이어 그램
 ![GoogleKeep_Sequence](readme_image/GoogleKeep_Sequence.png)
-시퀀스 다이어 그램입니다. 구성은 user, GoogleKeepApp, GoogleCloudStorage입니다. user는 유저인터페이스(UI)를 통해서 앱을 동작하고 GoogleKeepApp에서 동작을 입력받아서 user의 명령을 수행합니다. 그후 메모의 저장 수정 삭제 요청과 이미지 업로드 명령을 입력받아서 수행합니다. 명령을 수행한뒤 수정 삭제 요청은 Database에 업로드 합니다.
+
+시퀀스 다이어 그램입니다.  
+구성은 user, GoogleKeepApp, GoogleCloudStorage입니다. user는 유저인터페이스(UI)를 통해서 앱을 동작하고 GoogleKeepApp에서 동작을 입력받아서 user의 명령을 수행합니다. 그후 메모의 저장 수정 삭제 요청과 이미지 업로드 명령을 입력받아서 수행합니다. 명령을 수행한뒤 수정 삭제 요청은 Database에 업로드 합니다.
 
 # 💻 샘플 코드
 ## 📁 파일 구성
