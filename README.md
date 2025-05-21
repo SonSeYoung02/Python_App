@@ -52,8 +52,8 @@ DB_PORT = 3306
 1. .env파일과 연동시킵니다.  
 >DB_HOST=  
 >DB_USER=  
->DB_PASSWORD=  
->DB_NAME= 
+>DB_PASSWORD=    
+>DB_NAME=  
 >DB_PORT= 
 
 ---
